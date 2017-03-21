@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "AHuaner" => "ahuaner@126.com" }
+  s.author               = { "AHuaner" => "ahuaner@126.com" }
   # Or just: s.author    = "AHuaner"
   # s.authors            = { "AHuaner" => "ahuaner@126.com" }
 
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "__ProjectName__/__ProjectName__/**/*.{h,m}"
+  s.source_files  = "__ProjectName__/__ProjectName__/**/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

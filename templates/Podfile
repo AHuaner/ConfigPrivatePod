@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
-source 'https://github.com/ModulizationDemo/PrivatePods.git' # changed into yourself privated Spec Repo 
+source 'https://git.coding.net/AHuaner/PrivatePods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target '__ProjectName__' do
